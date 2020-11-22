@@ -1,0 +1,46 @@
+.weather-section {
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 0;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    border: 1px solid black
+}
+
+.location, .temperature {
+    text-align: center;
+}
+
+.temperature {
+    display: none;
+}
+
+.timezone {
+    margin-top: 5px;
+}
+
+.degree-section {
+    text-align: center;
+}
+
+.temp-deg span {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#prev, #next {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+    #prev, #next:hover {
+        background-color: yellow;
+    }

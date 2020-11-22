@@ -10,6 +10,7 @@ import Dashboard from "./components/dashboard/Dashboard";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Navbar from "./components/Navbar";
+import Weather from "./components/Weather";
 
 function App(){
     const [ isAuthenticated, setIsAuthenticated ] = useState(false);
@@ -30,6 +31,7 @@ function App(){
         <Fragment>
             <BrowserRouter>
                 <Navbar />
+                <Weather/>
                 <div className="continaer">
                     <Switch>
                 <Route

@@ -32,6 +32,38 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="components\images\clear.svg" />
+    <Content Include="components\images\clear_night.svg" />
+    <Content Include="components\images\cloudy.svg" />
+    <Content Include="components\images\drizzle.svg" />
+    <Content Include="components\images\flurries.svg" />
+    <Content Include="components\images\fog.svg" />
+    <Content Include="components\images\fog_light.svg" />
+    <Content Include="components\images\freezing_drizzle.svg" />
+    <Content Include="components\images\freezing_rain.svg" />
+    <Content Include="components\images\freezing_rain_heavy.svg" />
+    <Content Include="components\images\freezing_rain_light.svg" />
+    <Content Include="components\images\ice_pellets.svg" />
+    <Content Include="components\images\ice_pellets_heavy.svg" />
+    <Content Include="components\images\ice_pellets_light.svg" />
+    <Content Include="components\images\mostly_clear.svg" />
+    <Content Include="components\images\mostly_clear_night.svg" />
+    <Content Include="components\images\mostly_cloudy.svg" />
+    <Content Include="components\images\partly_cloudy.svg" />
+    <Content Include="components\images\partly_cloudy_night.svg" />
+    <Content Include="components\images\rain.svg" />
+    <Content Include="components\images\rain_heavy.svg" />
+    <Content Include="components\images\rain_light.svg" />
+    <Content Include="components\images\snow.svg" />
+    <Content Include="components\images\snow_heavy.svg" />
+    <Content Include="components\images\snow_light.svg" />
+    <Content Include="components\images\tstorm.svg" />
+    <Content Include="components\WeatherScript.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="components\WeatherStyle.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="dist\app-bundle.js" />
     <Content Include="dist\app-bundle.js.map" />
     <Content Include="index.html">
@@ -72,8 +104,12 @@
     <TypeScriptCompile Include="components\Register.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="components\Weather.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="components\images\" />
     <Folder Include="components\dashboard\" />
     <Folder Include="components\dashboard\todos\" />
     <Folder Include="dist\" />
